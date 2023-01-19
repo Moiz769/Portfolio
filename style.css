@@ -67,7 +67,7 @@ nav{
 .links a:hover::before{
     transform: scaleX(1);
 }
-.right button{
+.right .button{
     cursor: pointer;
     background-color: var(--clr-grn);
     padding: .5em 2em;
@@ -75,7 +75,7 @@ nav{
     border: 1px solid var(--clr-grn);
     transition: ease 400ms;
 }
-.right button:hover{
+.right .button:hover{
     background: none;
     color: var(--clr-wit);
     border: 1px solid var(--clr-grn);
